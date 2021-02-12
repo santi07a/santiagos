@@ -17,5 +17,8 @@ body{
 }
 .cuerpo {
   background-color: var(--colorcuerpo);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
