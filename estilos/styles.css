@@ -1,0 +1,21 @@
+:root {
+  --colorcabecera: #5e81d1;
+  --colorsection: #f87500;
+  --colorcuerpo: #ff8d27;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.cabecera {
+  background-color: var(--colorcabecera);
+}
+.seccion {
+  background-color: var(--colorsection);
+}
+.cuerpo {
+  background-color: var(--colorcuerpo);
+}
+
