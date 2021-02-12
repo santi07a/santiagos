@@ -8,7 +8,7 @@
   <meta name="description" content="Lista de compras">
   <link rel="stylesheet" href="estilos/styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <title>Lista de Articulos</title>
+  <title>Editar lista de compras</title>
 </head>
 
 <body>
@@ -16,15 +16,17 @@
   </header>
   <section></section>
   <main>
-
     <form>
       <h2>Editar artículo</h2>
-      <div class=productos><label for="Name"> Nombre:</label>
-        <input type="text" id="Name">
+      <div class="productos"><label for="name"> Nombre:</label>
+        <input type="text" id="name" required>
       </div>
       <div>
-        <label for="Price">Precio:</label>
+        <label for="price">Precio:</label>
         <input type="number" id="price"> €
+      </div>
+      <div>
+        <button type="submit">Modificar</button>
       </div>
     </form>
   </main>
