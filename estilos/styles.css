@@ -8,17 +8,14 @@
 }
 body{
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorcuerpo);
 }
 .cabecera {
   background-color: var(--colorcabecera);
 }
 .seccion {
   background-color: var(--colorsection);
-}
-.cuerpo {
-  background-color: var(--colorcuerpo);
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
 
