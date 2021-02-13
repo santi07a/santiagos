@@ -73,7 +73,10 @@ input[type='checkbox'] {
 .tabla {
   font-size: 20px;
   border-collapse: collapse;
-  width: 100vw;
+  width: 98vw;
+  margin: 0px 10px;
+  border-bottom: dashed 1px white;
+
 }
 td {
   text-align: left;
@@ -81,8 +84,9 @@ td {
   width: 100%;
 }
 .resultado {
+  font-size: 22px;
   text-align: right;
-  padding: 20px;
+  padding: 18px;
 }
 .primer>td:first-child {
   text-decoration: line-through;
