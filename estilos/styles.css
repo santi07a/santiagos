@@ -8,8 +8,14 @@
   }
 body{
   margin: 0;
-  background-color: var(--colorcuerpo);
+  background-color: var(--colorcuerpo);  
 }
+
+.cabecera, .seccion, .cuerpo{
+  padding: 2%;
+}
+
+
 .cabecera {
   margin: 0;
   background-color: var(--colorcabecera);
@@ -24,9 +30,7 @@ body{
   align-items: center;
   margin: 0px;
 }
-.cabecera h1,ul {
-  margin: 20px;
-}
+
 .menu {
   padding: 0px;
 }
