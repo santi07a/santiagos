@@ -2,6 +2,7 @@
   --colorcabecera: #5e81d1;
   --colorsection: #f87500;
   --colorcuerpo: #ff8d27;
+  --colorhover: #c16b1e;
 }
 
 * {
@@ -55,7 +56,64 @@ body{
 .opciones-navegacion {
   font-weight: bold;
 }
-
 .cabecera >h1 {
   font-weight: 500;
+}
+.seccion {
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.seccion i,p {
+  margin: 25px;
+}
+
+ .fa-plus-circle {
+  color: rgba(37, 37, 37, 0.87);
+  font-size: 25px;
+}
+input[type='checkbox'] {
+    width: 22px;
+    height: 22px;
+    background:white;
+    border: 1px;
+}
+.fa-times {
+  color: rgba(37, 37, 37, 0.87);
+  font-size: 24px;
+  margin: 0px 5px 0px 20px;
+}
+.tabla {
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 98vw;
+  margin: 0px 10px;
+  border-bottom: dashed 1px white;
+
+}
+td {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+}
+.resultado {
+  font-size: 22px;
+  text-align: right;
+  padding: 18px;
+}
+.primer>td:first-child {
+  text-decoration: line-through;
+}
+.tercer>td:first-child {
+  text-decoration: line-through;
+}
+.tabla tr:hover {
+  background-color: var(--colorhover);
+  color: white;
+}
+
+.tabla tr:hover .fa-times {
+  color: white;
 }
