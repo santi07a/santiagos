@@ -45,14 +45,14 @@ body{
   display: inline-block;
   padding: 5px;
 }
-.opciones-navegacion {
+.menu *{
   text-decoration: none;
   color: inherit;
 }
 .opciones-navegacion:hover {
   text-decoration: underline;
 }
-.menu>li {
+.opciones-navegacion {
   font-weight: bold;
 }
 
