@@ -4,13 +4,26 @@
   --colorcuerpo: #ff8d27;
   --colorhover: #c16b1e;
 }
-  * {
+
+* {
   box-sizing: border-box;
-  }
+}
+
+
 body{
   margin: 0;
   background-color: var(--colorcuerpo);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+               "Helvetica Neue", sans-serif;
+
 }
+
+.cabecera, .seccion, .cuerpo{
+  padding: 2%;
+}
+
+
 .cabecera {
   margin: 0;
   background-color: var(--colorcabecera);
@@ -25,9 +38,7 @@ body{
   align-items: center;
   margin: 0px;
 }
-.cabecera h1,ul {
-  margin: 20px;
-}
+
 .menu {
   padding: 0px;
 }
@@ -35,15 +46,18 @@ body{
   display: inline-block;
   padding: 5px;
 }
-.opciones-navegacion {
+.menu *{
   text-decoration: none;
   color: inherit;
 }
 .opciones-navegacion:hover {
   text-decoration: underline;
 }
-.menu>li:nth-child(2) {
+.opciones-navegacion {
   font-weight: bold;
+}
+.cabecera >h1 {
+  font-weight: 500;
 }
 .seccion {
   font-size: 28px;
