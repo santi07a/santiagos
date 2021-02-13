@@ -64,15 +64,13 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-}
-.seccion i,p {
-  margin: 25px;
+  align-items: center;  
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
  .fa-plus-circle {
   color: rgba(37, 37, 37, 0.87);
-  font-size: 25px;
 }
 input[type='checkbox'] {
     width: 22px;
@@ -122,4 +120,8 @@ input {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", "Times New Roman",sans-serif;
+}
+
+.fa-minus-circle{
+ color:rgba(37, 37, 37, 0.87);
 }
