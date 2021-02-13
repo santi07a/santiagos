@@ -23,11 +23,19 @@ body{
 .seccion {
   background-color: var(--colorsection);
 }
-.cabecera div {
+.cabecera .divisor {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 0px 20px;
+}
+.menu {
+  padding: 0px;
+}
+.cabecera .menu>li {
+  display: inline-block;
+  padding: 5px;
+  justify-content: space-evenly;
 }
 
