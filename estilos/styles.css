@@ -59,9 +59,7 @@ body{
   color: rgba(37, 37, 37, 0.87);
   font-size: 25px;
 }
-.listado li {
-  list-style:none;
-}
+
 .listado {
   padding: 0;
   padding-bottom: 10px;
@@ -69,6 +67,7 @@ body{
   border-bottom: dashed white 1px;
 }
 .listado li {
+  list-style:none;
   font-size: 24px;
   display: flex;
   flex-direction: row;
@@ -86,4 +85,9 @@ input[type='checkbox'] {
   font-size: 24px;
   margin: 0px 5px 0px 20px;
 }
-
+.listado li:first-child .izq {
+  text-decoration: line-through;
+}
+.listado li:last-child .izq {
+  text-decoration: line-through;
+}
