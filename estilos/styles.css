@@ -2,6 +2,7 @@
   --colorcabecera: #5e81d1;
   --colorsection: #f87500;
   --colorcuerpo: #ff8d27;
+  --colorhover: #c16b1e;
 }
   * {
   box-sizing: border-box;
@@ -93,4 +94,12 @@ td {
 }
 .tercer>td:first-child {
   text-decoration: line-through;
+}
+.tabla tr:hover {
+  background-color: var(--colorhover);
+  color: white;
+}
+
+.tabla tr:hover .fa-times {
+  color: white;
 }
