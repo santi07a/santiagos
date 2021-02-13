@@ -85,9 +85,12 @@ input[type='checkbox'] {
   font-size: 24px;
   margin: 0px 5px 0px 20px;
 }
-.listado li:first-child .izq {
-  text-decoration: line-through;
+.listado li .lista-interna {
+display: flex;
+flex-direction: row;
 }
-.listado li:last-child .izq {
-  text-decoration: line-through;
+
+.listado {
+  display: flex;
+  flex-direction: row;
 }
