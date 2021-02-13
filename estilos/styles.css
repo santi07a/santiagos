@@ -71,8 +71,8 @@ body{
   font-size: 24px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 8px;
+  margin: 0px;
+  padding: 0px;
 }
 input[type='checkbox'] {
     width: 26px;
@@ -85,12 +85,10 @@ input[type='checkbox'] {
   font-size: 24px;
   margin: 0px 5px 0px 20px;
 }
-.listado li .lista-interna {
+.lista-interna {
 display: flex;
 flex-direction: row;
+padding: 0px;
+margin: 5px;
 }
 
-.listado {
-  display: flex;
-  flex-direction: row;
-}
