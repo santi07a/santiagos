@@ -6,12 +6,6 @@
   * {
   box-sizing: border-box;
   }
-html, body  {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-}
 body{
   margin: 0;
   background-color: var(--colorcuerpo);
@@ -23,12 +17,15 @@ body{
 .seccion {
   background-color: var(--colorsection);
 }
-.cabecera .divisor {
+.cabecera  {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 20px;
+  margin: 0px;
+}
+.cabecera h1,ul {
+  margin: 20px;
 }
 .menu {
   padding: 0px;
@@ -36,13 +33,12 @@ body{
 .cabecera .menu>li {
   display: inline-block;
   padding: 5px;
-  justify-content: space-evenly;
 }
-a {
+.opciones-navegacion {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
-li a:hover {
+.opciones-navegacion:hover {
   text-decoration: underline;
 }
 .menu>li:nth-child(2) {
