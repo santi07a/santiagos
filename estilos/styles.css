@@ -71,16 +71,15 @@ input[type='checkbox'] {
   margin: 0px 5px 0px 20px;
 }
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100vw;
 }
 td {
   text-align: left;
-  padding: 8px;
+  padding: 7px;
   width: 100%;
 }
-.suma {
+.resultado {
   text-align: right;
-  padding: 20px;
+  padding: 15px;
 }
