@@ -101,10 +101,7 @@ td {
   text-align: right;
   padding: 18px;
 }
-.primer>td:first-child {
-  text-decoration: line-through;
-}
-.tercer>td:first-child {
+.tachado{
   text-decoration: line-through;
 }
 .tabla tr:hover {
