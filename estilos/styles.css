@@ -123,24 +123,25 @@ input {
  color:rgba(37, 37, 37, 0.87);
 }
 
-.productos > label {
+ .cuerpo label {
   display: block;
 }
 
-.productos > input{
+ .cuerpo input{
   margin-top: 11px;
   margin-bottom: 10px;
   padding: 0.8em;
   width: 16em;
 }
 
-button {
+.boton {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", "Times New Roman",sans-serif;
 }
 
-.productos > button{
+ .boton {
+   display: block;
   margin-top: 10px;
   border: 0;
   padding: 0.6em 0.3em;
