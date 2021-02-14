@@ -123,11 +123,11 @@ input {
  color:rgba(37, 37, 37, 0.87);
 }
 
- .cuerpo label {
+ .formulario label {
   display: block;
 }
 
- .cuerpo input{
+ .formulario input{
   margin-top: 11px;
   margin-bottom: 10px;
   padding: 0.8em;
