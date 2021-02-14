@@ -123,11 +123,11 @@ input {
  color:rgba(37, 37, 37, 0.87);
 }
 
-.productos > label {
+ label {
   display: block;
 }
 
-.productos > input{
+ input{
   margin-top: 11px;
   margin-bottom: 10px;
   padding: 0.8em;
@@ -140,7 +140,8 @@ button {
                "Helvetica Neue", "Times New Roman",sans-serif;
 }
 
-.productos > button{
+ button {
+   display: block;
   margin-top: 10px;
   border: 0;
   padding: 0.6em 0.3em;
