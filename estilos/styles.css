@@ -77,11 +77,13 @@ input[type='checkbox'] {
     height: 22px;
     background:white;
     border: 1px;
+    vertical-align: text-top;
 }
 .fa-times {
   color: rgba(37, 37, 37, 0.87);
   font-size: 24px;
   margin: 0px 5px 0px 20px;
+  vertical-align: text-bottom;
 }
 .tabla {
   font-size: 20px;
@@ -89,12 +91,14 @@ input[type='checkbox'] {
   width: 100%;
   margin: 0px 10px 0px 0px;
   border-bottom: dashed 1px white;
-
 }
 td {
   text-align: left;
   padding: 10px 0px;
   width: 100%;
+}
+tr>td {
+  vertical-align: 0;
 }
 .resultado {
   font-size: 22px;
