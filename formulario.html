@@ -8,7 +8,8 @@
   <meta name="description" content="Lista de compras">
   <link rel="stylesheet" href="estilos/styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/8248ca929a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8248ca929a.js"
+    crossorigin="anonymous"></script>
   <title>Editar lista de compras</title>
 </head>
 
@@ -22,21 +23,22 @@
     </ul>
   </header>
   <section class="seccion">
-    <i class="fa fa-minus-circle"></i>
+    <a href="index.html"><i class="fa fa-minus-circle"></i></a>
     <p class="cantidades"><span class="marcados">2</span>/<span class="total">3</span>
       comprados</p>
   </section>
   <main class="cuerpo">
     <form>
       <h2>Editar artículo</h2>
-      <div class="productos"><label for="name"> Nombre:</label>
+      <div class="productos">
+        <label for="name"> Nombre:</label>
         <input type="text" id="name" required>
       </div>
-      <div>
+      <div class="productos">
         <label for="price">Precio:</label>
         <input type="number" id="price"> €
       </div>
-      <div>
+      <div class="productos">
         <button type="submit">Modificar</button>
       </div>
     </form>
